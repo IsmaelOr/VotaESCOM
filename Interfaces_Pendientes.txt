@@ -1,0 +1,13 @@
+Interfaces por hacer:
+-Registro
+-Interfaz de inicio de sesión 
+-Interfaz para el administrador: ABCC de usuarios, alta y configuracion de la votación.
+-Interfaz para submodulo votar: mostrar informacion de los candidatos, opcion para votar.
+*el submodulo control de votos no tiene interfaz, solo es para la comprobacion del voto
+
+Y luego para la página web (modulo estadísticas): 
+-Pantalla donde puedas ver igual que 'eventos' se están llevando a cabo. Y quizá próximos eventos a suceder con fecha.
+-Pantalla donde seleccionado el evento, aparezcan los candidatos y una vez que los selecciones al candidato que te interesa ya sea que se despliegue su información y propuestas o que se abra otra pantalla donde aparezca su información.
+- De ser que habrá otra pantalla pues es hacer la pantalla pata información de candidatos.
+- Y en la pantalla donde aparecen todos los candidatos que haya un botón que sea conoce los resultados...
+-Y ya por ultimo es la pantalla con los Gráficos de los Resultados.
