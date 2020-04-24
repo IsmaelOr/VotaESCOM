@@ -1,7 +1,11 @@
 img{
     width: 200px;
     height: 200px;
-    margin: 0 10px;
+    margin: 0 20px;
+    display: table;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #1068A3;
 }
 
 #bloque{
@@ -11,3 +15,7 @@ img{
     justify-content: center;
 }
 
+#bloque>div{
+    text-align: center;
+    font-size: 20px;
+}
