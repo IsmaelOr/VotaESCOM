@@ -1,0 +1,13 @@
+img{
+    width: 200px;
+    height: 200px;
+    margin: 0 10px;
+}
+
+#bloque{
+    height: 100vh;
+    place-items: center;
+    display: flex;
+    justify-content: center;
+}
+
