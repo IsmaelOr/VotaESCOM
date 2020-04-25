@@ -9,7 +9,7 @@ img{
 }
 
 #bloque{
-    height: 100vh;
+    height: 70vh;
     place-items: center;
     display: flex;
     justify-content: center;
@@ -18,4 +18,11 @@ img{
 #bloque>div{
     text-align: center;
     font-size: 20px;
+}
+
+#titulo{
+    margin-top: 80px;
+    text-align: center;
+    color: #0B4870;
+    font-size: 25px;
 }
