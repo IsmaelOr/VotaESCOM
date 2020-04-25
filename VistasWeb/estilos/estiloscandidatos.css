@@ -6,6 +6,11 @@ img{
     border-style: solid;
     border-width: 15px;
     border-color: #1068A3;
+    transition: transform .5s;
+}
+
+img:hover{
+    transform: scale(1.2);
 }
 
 #bloque{
