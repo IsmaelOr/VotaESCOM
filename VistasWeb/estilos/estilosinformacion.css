@@ -1,0 +1,50 @@
+img{
+    width: 250px;
+    height: 250px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #1068A3;
+}
+
+#Espacio{
+    margin-left: 15%;
+    margin-top: 125px;
+    position: absolute;
+    width: 970px;
+    height: 600px;
+    background-color: thistle;
+}
+
+#Categorias{
+    width: 250px;
+    height: 600px;
+    background-color: #c2d2e9;
+    position: absolute;
+}
+
+.sub{
+    justify-content: center; 
+    align-items: center; 
+    display: flex; 
+    height: 300px; 
+    border-bottom: solid; 
+    border-width: 2px; 
+    border-color: white;
+}
+
+.inf {
+    height: 300px;
+    border-bottom: solid; 
+    padding: 30px; 
+    border-width: 2px; 
+    border-color: white;
+    display: table;
+}
+
+#Informacion{
+    width: 720px;
+    height: 600px;
+    margin-left: 25.7%;
+    background-color: #f1f1f0;
+    position: absolute;
+}
