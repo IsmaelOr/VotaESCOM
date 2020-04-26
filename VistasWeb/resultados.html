@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VotaESCOM</title>
     <link rel="stylesheet" type="text/css" href="estilos\estilosmenu.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
 </head>
 <body>
     <header>
@@ -22,5 +23,44 @@
             </ul>
         </nav>
     </header>
+    <div style="text-align: center;">
+        <h1 style="font-size:30px; color: #0B4870;">RESULTADOS</h1>
+    </div>
+    <div style="width: 50%; margin-left: auto; margin-right: auto;"id="graficas">
+        <canvas id="myChart" width="400" height="300"></canvas>
+    </div>
 </body>
+<script>
+    var ctx= document.getElementById("myChart").getContext("2d");
+    var myChart2= new Chart(ctx,{
+        type:"bar",
+        data:{
+            datasets:[{
+                label: 'Resultados de Candidatos',
+                //borderWidth: '3',
+                data:[10,12,4,6],
+                //borderColor:['rgba(12,79,85,90)','rgba(85,67,400,38)'],
+                backgroundColor:[
+                    'rgb(66, 134, 244)',
+                    'rgb(74, 135, 72)',
+                    'rgb(229, 89, 50)',
+                    'rgb(13, 15, 19'
+                ]
+            },
+            ],
+            labels:[
+                "Ismael","Axel","China","Torreon"
+            ]
+        },
+        options:{
+            scales:{
+                yAxes:[{
+                    ticks:{
+                        beginAtZero: true
+                    }
+                }]
+            }
+        }
+    });
+</script>
 </html>
