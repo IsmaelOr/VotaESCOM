@@ -1,0 +1,35 @@
+#tabla{
+    display:table;
+    width: 970px;
+    margin-left: 15%;
+    height: 600px;
+}
+
+.celda{
+    display: table-cell;
+    width: 485px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    padding: 20px;
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    margin: 0 20px;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #1068A3;
+    transition: transform .5s;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+.titulos{
+    font-size: 25px;
+    color: #0B4870;
+}
