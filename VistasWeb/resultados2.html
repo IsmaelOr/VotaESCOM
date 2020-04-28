@@ -27,7 +27,7 @@
     </header>
     <div style="text-align: center;">
         <h1 style="font-size:30px; color: #0B4870;">RESULTADOS</h1>
-        <a href="resultados2.html"><button>Pastel</button></a>
+       <a href="resultados.html"><button>Barras</button></a>
     </div>
     <div style="width: 50%; margin-left: auto; margin-right: auto;"id="graficas">
         <canvas id="myChart" width="400" height="300"></canvas>
@@ -36,7 +36,7 @@
 <script>
     var ctx= document.getElementById("myChart").getContext("2d");
     var myChart2= new Chart(ctx,{
-        type:"bar",
+        type:"pie",
         data:{
             datasets:[{
                 label: 'Resultados de Candidatos',
